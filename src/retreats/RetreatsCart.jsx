@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const RetreatsCart = ({ cartData }) => {
+  const navigate = useNavigate()
+
+
   console.log(cartData)
   return (
     <div className=' flex border border-gray-700 justify-between p-10 pr-16 '>
@@ -23,7 +27,7 @@ const RetreatsCart = ({ cartData }) => {
 
           </div>
           
-          <button  onClick={() => window.location.href = "http://localhost:5173/Retreatsin"}className="  h-7 px-4.5 py-3.5 rounded-2xl bg-gray-600 hover:bg-amber-300   text-1xl font-semibold text-black hover:scale-105 transition flex items-center justify-center">
+          <button  onClick={() => navigate(`/retreatsin/${cartData.id}`)}className="  h-7 px-4.5 py-3.5 rounded-2xl bg-gray-600 hover:bg-amber-300   text-1xl font-semibold text-black hover:scale-105 transition flex items-center justify-center">
                 Explore Retreats <h4 className=''>✦</h4></button>
             
         </div>

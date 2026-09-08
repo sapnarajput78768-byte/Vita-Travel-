@@ -30,6 +30,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/explore" element={<Explore/>}/>
       <Route path="/product/:id" element={<ProductDeatils/>}/>
+      <Route path="/retreatsin/:id" element={<Retreatsin/>}/>
     </Routes>
     
     </BrowserRouter>
