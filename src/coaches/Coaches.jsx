@@ -120,56 +120,56 @@ const Coaches = () => {
     title: "Honesty",
     description:
       "Having the courage to be transparent in our feelings and what we do",
-    image:"./public/Honesty.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtmMfW1ZZZlpQE8-D99VxNbm7WBXOcowqN2By_UdoFw&s=10",
   },
   {
     id: "02",
     title: "Self-responsibility",
     description:
       "Taking responsibility for our situation in life and not engaging in the blame game",
-     image:"./public/Self-responsibility.svg",
+     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2i0BLIsThGShCkmhzPj_c5ntV0eg0kCxqdaN2YLMASQ&s=10",
   },
   {
     id: "03",
     title: "Kindness",
     description:
       "Show compassion, empathy, and patience to enhance comfort and joy in life.",
-    image:"./public/Kindness.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXjv7bYYQPF2LVSst5hlb54LjDw13kj-z6kQyO8Gq5A&s=10",
   },
   {
     id: "04",
     title: "Dedication",
     description:
       "Taking on the challenge of the journey and focus upon the vision we want to manifest",
-    image:"./public/Dedication.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWSavc2NoLiRSBYm4ywwmsK0yhUWHyjaHuSh9zYyOh8A&s=10",
   },
   {
     id: "05",
     title: "Service",
     description:
       "Placing our gifts and talents at the services of increasing the loving consciousness of the world",
-    image:"./public/Service.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj3FRhxVXFM3Nz5flBii3q6jihPYDnXJBwM3LaPto_fw&s=10",
   },
   {
     id: "06",
     title: "Beauty",
     description:
       "Expressing openly the core essence that inhabits each one of us",
-    image:"./public/Beauty.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOfsYuOrjF9rfgmYfauQjUk8DK95nD-JLMO3tq01Hng&s=10",
   },
   {
     id: "07",
     title: "Human Wellbeing",
     description:
       "In the end, we are all in the business of human wellbeing",
-    image:"./public/Human Wellbeing.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKUgeVNFNTVhRN_sKo4YqE5VxbYu6elmK7Foh_QQtSQQ&s=10",
   },
   {
     id: "08",
     title: "Travel & track progress",
     description:
       "Use VITA Journal to reflect and rebook.",
-    image:"./public/Travel & track progress.svg",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiqpdUdjakpoZQsc-yTpOERYqmZwb_085fGi-kQDpSKg&s=10",
   },
 ];
 
@@ -223,7 +223,7 @@ const Coaches = () => {
 
         <div className="flex items-start justify-between mb-20">
           <div className="text-5xl text-white transition-transform duration-500 group-hover:scale-110">
-            <img src={value.image} alt={value.title} className="w-full h-full object-contain" />
+            <img src={value.image} alt={value.title} className="w-full h-full pt-5 object-contain" />
           </div>
           <span className="text-gray-500 text-sm font-semibold">
             {value.id}
