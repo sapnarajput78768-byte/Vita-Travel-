@@ -171,7 +171,7 @@ const Explore = () => {
       <section>
         <div>
           <img className="absolute h-380 w-full  "
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnYTHaHUhyn7Z1hiy_4jyMpT4SS-TGrP2T7PJCcMNvQ&s"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxPhADHiZSAuN9wbcXZ8UQTT89f_4sJr9lYYc7sLibJA&s=10"
             alt="Combine Retreat" />          </div>
 
         <div className="relative text-white">
