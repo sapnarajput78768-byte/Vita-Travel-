@@ -1,4 +1,5 @@
 name: Deploy React App
+name: Deploy React App
 
 on:
   push:
@@ -14,6 +15,8 @@ permissions:
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
+
     runs-on: ubuntu-latest
 
     environment:
