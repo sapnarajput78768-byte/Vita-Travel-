@@ -705,7 +705,7 @@ function Retreatsin() {
           </div>
         </div>
       </div> */}
-      <img className="opacity-100 w-full h-auto" src="/coaches botom.webp" alt="image" />
+      <img className="opacity-100 w-full h-auto" src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/697b6310adee6f369b84c520_illustration.webp" alt="image" />
       <footer className="border-t border-gray-700">
         <div className="grid grid-cols-3 min-h-[258px]">
           <div className="p-9">

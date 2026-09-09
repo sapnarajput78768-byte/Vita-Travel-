@@ -8,7 +8,7 @@ const Coaches = () => {
       id: "1",
       title: "Lauren Thompson",
       title_1: "Yoga Couch",
-      image: "./public/download (12).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6cc589808c226f0cd7_ea8e8b2e1274331d29db4f187ea3aebb_1.webp",
       discription: `I work with yoga as a practical tool for improving mobility, balance,<br and body awareness. My sessions focus on breath, alignment, and calm strength, without pressure or competition. I support people who want to build a steady practice that fits real life and long-term wellbeing.\nMy approach is grounded, structured, and accessible for different experience levels.`,
       country: "14",
       attended: "18"
@@ -17,7 +17,7 @@ const Coaches = () => {
       id: "2",
       title: "Elena Rossi",
       title_1: "Wellbeing & Balance Coach",
-      image: "./public/download (1).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c01ae0a19d848cade_2.webp",
       discription: `I believe that health and fitness are built through sustainable lifestyle changes — and that is exactly what I offer my clients.I focus on teaching real, whole-food nutrition, practical meal preparation, effective resistance and cardiovascular training, and, most importantly, consistency.\nI believe that anyone can achieve their health and fitness goals with the right approach and support.`,
       country: "14",
       attended: "12"
@@ -26,7 +26,7 @@ const Coaches = () => {
       id: "3",
       title: "Matteo Conti",
       title_1: "Transformational Retreat Guide",
-      image: "./public/download (2).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6d9e98ad2b3be778bb_3.webp",
       discription: `I guide retreats focused on personal clarity, reflection, and intentional change. My work combines structured sessions, nature-based practices, and group processes. I support participants in slowing down, reassessing priorities, and reconnecting with their inner direction.\nI value clarity, presence, and honest self-observation as tools for long-term change.`,
       country: "22",
       attended: "123"
@@ -35,7 +35,7 @@ const Coaches = () => {
       id: "4",
       title: "Clara Hoffmann",
       title_1: "Holistic Wellness Coach",
-      image: "./public/download (3).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6cafd3294f0e4cae21_db00e622a71ec4d40f731da73d631f15_4.webp",
       discription: `I work with people who want to improve their overall wellbeing by aligning mental, emotional, and physical health. My approach is holistic and supportive, focusing on balance rather than extremes.\nI help clients build routines that support stability, energy, and self-awareness in daily life.`,
       country: "28",
       attended: "45"
@@ -44,7 +44,7 @@ const Coaches = () => {
       id: "5",
       title: "Julien Lefèvre",
       title_1: "Coach",
-      image: "./public/download (4).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c580fbb67421bc1c7_5.webp",
       discription: `I work with people who want to improve their overall wellbeing by aligning mental, emotional, and physical health. My approach is holistic and supportive, focusing on balance rather than extremes.\nI help clients build routines that support stability, energy, and self-awareness in daily life.`,
       country: "16",
       attended: "21"
@@ -53,7 +53,7 @@ const Coaches = () => {
       id: "6",
       title: "David Schneider",
       title_1: "Nature Retreat Guide",
-      image: "./public/download (5).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c71bd8132d7c6bad8_6.webp",
       discription: `I design and guide retreats centered around nature, walking practices, and quiet observation.\nMy work uses natural environments as a space for reflection and mental reset. I support participants in reconnecting with simplicity, presence, and physical awareness through structured outdoor experiences.`,
       country: "32",
       attended: "68"
@@ -62,7 +62,7 @@ const Coaches = () => {
       id: "7",
       title: "Anna Kowalska",
       title_1: "Conscious Movement Instructor",
-      image: "./public/download (6).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6cedcfe088ce4dce7b_e51670bc392ea39ffcefd508131351a6_7.webp",
       discription: `I work with conscious movement practices that improve mobility, coordination, and body awareness. My sessions help participants understand how they move and how movement affects emotional state.\nI focus on clarity, control, and ease, supporting sustainable physical health without strain.`,
       country: "15",
       attended: "32"
@@ -71,7 +71,7 @@ const Coaches = () => {
       id: "8",
       title: "Thomas Weber",
       title_1: "Silent Retreat Guide",
-      image: "./public/download (7).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c6152e02c42a97084_8.webp",
       discription: `I facilitate silent retreats focused on rest, mental clarity, and deep reflection. My work creates a structured and safe environment where participants can step away from constant input and reconnect with their inner processes. Silence is used as a practical tool for awareness and insight.`,
       country: "22",
       attended: "124"
@@ -80,7 +80,7 @@ const Coaches = () => {
       id: "9",
       title: "Isabelle Martin",
       title_1: "Stress-Relief Guide",
-      image: "./public/download (8).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6cb4387b1312d7ae14_9.webp",
       discription: `I work with stress reduction through structured breathing practices, gentle movement, and nervous system regulation. My sessions focus on restoring balance, improving emotional stability, and reducing physical tension. I support people who experience long-term stress and want practical, repeatable tools they can use in everyday life. My approach is calm, grounded, and focused on sustainable recovery rather than quick fixes.`,
       country: "14",
       attended: "18"
@@ -89,7 +89,7 @@ const Coaches = () => {
       id: "10",
       title: "Sarah Johnson",
       title_1: "Nutrition Specialist",
-      image: "./public/download (9).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c6400b1ebc3956333_43c66f9116f860d81fe61e822e465e88_10.webp",
       discription: `I support retreat participants with nutrition that is simple, nourishing, and adapted to real needs. My work focuses on whole foods, energy balance, and practical eating habits that support focus and recovery. I help people understand how nutrition affects their physical and mental state, without strict rules or unnecessary restrictions, and with respect for individual lifestyles.`,
       country: "17",
       attended: "89"
@@ -98,7 +98,7 @@ const Coaches = () => {
       id: "11",
       title: "Laura Sánchez",
       title_1: "Yoga Couch",
-      image: "./public/download (10).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c292a68644a3e07b6_11.webp",
       discription: `I teach yoga as a consistent daily practice that supports strength, flexibility, and mental clarity. My sessions are structured, calm, and focused on breath, alignment, and body awareness. I work with people who want to integrate yoga into their routine in a realistic and sustainable way, without pressure or performance-based expectations.`,
       country: "26",
       attended: "224"
@@ -107,7 +107,7 @@ const Coaches = () => {
       id: "12",
       title: "Michael Wilson",
       title_1: "Meditation Coach",
-      image: "./public/download (11).webp",
+      image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6ccb670b10285a47bf_12.webp",
       discription: `I work with meditation as a practical tool for emotional stability, focus, and self-discipline. My approach is structured and accessible, helping people build a consistent practice that fits into real life.\nI support participants in developing awareness and resilience through techniques that can be applied both during retreats and in everyday situations.`,
       country: "19",
       attended: "18"
@@ -245,7 +245,7 @@ const Coaches = () => {
 
 </section>
 <div>
-  <img className="opacity-100 w-full h-auto" src="./public/coaches botom.webp" alt="image" />
+  <img className="opacity-100 w-full h-auto" src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/697b6310adee6f369b84c520_illustration.webp" alt="image" />
 </div>
 <footer className="border-t border-gray-700">
           <div className="grid grid-cols-3 min-h-[258px]">

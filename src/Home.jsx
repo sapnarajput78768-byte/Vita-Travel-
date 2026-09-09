@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <section className="relative ">
         <div>
-          <img className="bg bg1" src="./public/bg image.png" alt='background' />
+          <img className="bg bg1" src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69b131f7e83fd36f79be5b78_bg-part-1.webp" alt='background' />
           <img className="bg bg1" src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69b131f75b251dd705fc8bb9_bg-part-2.webp" alt='background' />
           <div className="relative z-10 flex h-full flex-col justify-center px-20 pt-2.5 pb-2.5">
             <div className=' justify-center grid pt-109 !pb-100 text-center '>
@@ -73,7 +73,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex">
-            <img src='./public/homecard3.jpg' alt='image' className='pl-5 pt-20  h-120 w-100 relative pt-30' />
+            <img src='https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/6979a5eeee86150be7247f79_illustration-about.jpg' alt='image' className='pl-5 pt-20  h-120 w-100 relative pt-30' />
 
             <p className='text-white pt-30 pl-30  text-1xl '>
               Vita Travel is a premium wellness travel marketplace<br />

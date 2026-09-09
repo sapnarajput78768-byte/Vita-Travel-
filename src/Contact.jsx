@@ -25,7 +25,7 @@ const Contacts = () => {
         <div className="  grid grid-cols-2 min-h-screen  ">        
           <div className=" mt-15">
             <img className="border-r border-gray-400 border-r-gray-700 h-full p-5  object-cover"
-              src="./public/image.png" alt="Vita Travel"/>
+              src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/6989df5258a6f0a8174626f3_illustration-contact.webp"/>
           </div>
 
           <div className="px-10 py-32">
