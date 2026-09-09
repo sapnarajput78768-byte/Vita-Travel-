@@ -811,37 +811,36 @@ vitamins and minerals to replenish and cleanse your nervous system.
   },
   {
     id: 5,
-    title: "7 Day Solo Travelers Retreat: Fun in Bali",
-    price: "$406",
-    location: "Ubud, Bali, Indonesia",
-    date: "Jan | Feb | Mar | Apr | May ",
-    duration: "7 days, 6 nights",
-    guests: "solo",
+    title: "8 Day Juice Detox, Retreat in Portugal",
+    price: "$3,829",
+    location: "R. Moinhos Velhos 3, 8600-077 Lagos, Portugal",
+    date: "Feb 06 - 14, 2026 ",
+    duration: "8 days, 7 nights",
+    guests: "12",
 
     images: [
-      "/retreats6.webp",
-      "/retreats6.1.webp",
-      "/retreats6.2.webp",
-      "/retreats6.3.webp",
+      "/retreats5.webp",
+      "/retreats5.1.webp",
+      "/retreats5.2.webp",
+      "/retreats5.3.webp",
     ],
 
     about: (
       <>
-Firefly Retreat Bali is located just a 25-minute walk from Ubud’s bustling main street, offering a peaceful sanctuary away from the crowds while still being close enough to explore the town’s vibrant cultural
-attractions.<br/>
-Surrounded by lush rice paddies, tropical forests, and tranquil villages, the retreat provides the perfect setting
-for relaxation, reflection, and rejuvenation. The serene natural environment is ideal for your yoga practice and wellness journey.
-      </>
+      For over three decades, we’ve helped thousands rediscover balance, vitality, and peace through the simple, powerful practice of juice fasting.<br/>
+As one of the world’s first dedicated juice fasting retreats, and named by The Sunday Times among the Top 10 Detox Retreats Worldwide,we combine deep expertise with genuine care to guide you on a truly
+transformative wellness journey.
+     </>
     ),
 
     included: [
-      "6 Nights Accommodation",
-      "Chocolate making class, cooking class",
-      "Herbal drink-making class",
-      "Meeting other solo travelers",
+      "7 Nights Accommodation",
+      "3 daily delicious and nutritious meals",
+      "Lemon water and herbal teas which you can take freely all day",
+      "Daily meditation classes",
       "Initial health check-up"],
     includedr:[  
-      "Three integration sessions during the retreat",
+      "Personal use of colonic cleansing equipment when indicated",
       "Optional sessions with ancestral tools",
       "Post retreat online integration",
       "Pre and post retreat support from our team",
@@ -850,13 +849,15 @@ for relaxation, reflection, and rejuvenation. The serene natural environment is 
 
     special: (
       <>
-Firefly Retreat Bali offers a unique experience by blending affordability with a
-welcoming, community-driven atmosphere. It's not a luxurious resort or a strict ashram
-but rather a warm, budget-friendly destination where guests can relax and enjoy
-enriching activities without the pressure of formality. Located just a 25-minute walk from
-Ubud's main street, the retreat is surrounded by nature, offering a perfect setting for
-yoga, meditation, and connection with Balinese culture.
-      </>
+Our yoga classes are accessible to all - whether you are a beginner or seasoned yogi
+our skilled teachers can guide you through an enriching and relaxing practice that
+supports your detox.<br/>
+Yoga is a fundamental part of our programme because the combination of gentle
+moving, stretching, and twisting together with deep breathing, significantly helps the
+detox process for body, mind and spirit. The lymph and blood transporting the released
+toxins are pumped through the body at a faster rate, speeding up the elimination
+process.
+   </>
     ),
 
     programText: (
@@ -871,42 +872,41 @@ are always very popular and informative.
 
     schedule: [
       {
-        time: "Day1",
+        time: "50:00",
         text: (
           <>
-          Arrival and settle in, First
-meeting and introduction
+     Wake up,lemon tea
 
           </>
         ),
       },
       {
-        time: "Day2",
-        text: "Sunrise Yoga,  Morning walk and introduction to Balinese natural medicines",
+        time: "07:00",
+        text: " Yoga",
       },
       {
-        time: "Day3",
-        text:"Balinese Excursion OR Sound Healing At Pyramids Of Chi"
+        time: "10:00",
+        text:"Orange juice, therapies or free time"
 
       },
     
       {
-        time: "Day4",
-        text: "Sunrise yoga, Cooking class, Jamu making"
+        time: "13:30",
+        text: "Fruit or vegetable juice"
       },
       {
-        time: "Day5-6",
+        time: "16:00",
         text: (
           <>
-          Herbal remedies tasting, Chocolate making
+          Vegetable juice & nutrition workshop
           </>
         ),
       },
       {
-        time: "Day7",
+        time: "20:00",
         text: (
           <>
-        Departure
+        Mixed vegetable broth – mineral rich
           </>
         ),
       },
@@ -929,33 +929,33 @@ meeting and introduction
 
     foodDescription: (
       <>
-       Moroccan food is rich, diverse, and packed with bold flavors, influenced by the
-country's varied landscapes, history, and cultures.
+      To keep you attuned to nature, our juices and broths are prepared in accordance with
+the season and also we ensure that across the retreat you have variety and a range of
+vitamins and minerals to replenish and cleanse your nervous system.
       </>
     ),
 
     foodImages: [
-      "/retreats6.4.webp",
-      "/retreats6.5.webp",
-      "/retreats6.6.webp",
-      "/retreats6.7.webp",
+      "/retreats5.4.webp",
+      "/retreats5.5.webp",
+      "/retreats5.6.webp",
+      "/retreats5.7.webp",
     ],
 
     team: {
-      name: "David Schneider",
-      role: "Nature Retreat Guide",
-      image: "/retreats6.8.webp",
+      name: "Sarah Johnson",
+      role: "Nutrition Specialist",
+      image: "/retreats5.8.webp",
       description1:
-        "I guide retreats focused on personal clarity, reflection, and intentional change. My work combines structured sessions, nature-based practices, and group processes. I support participants in slowing down, reassessing priorities, and reconnecting with their inner direction.",
-    },
+"I support retreat participants with nutrition that is simple, nourishing, and adapted to real needs. My work focuses on whole foods, energy balance,and practical eating habits that support focus and recovery.",
+description2:"I help people understand how nutrition affects their physical and mental state, without strict rules or unnecessary restrictions, and with respect for individual lifestyles."    
+}, 
 
     locationData: {
-      address:"Morocco",
+      address:"R. Moinhos Velhos 3, 8600-077 Lagos, Portugal",
       description1:
-"I design and guide retreats centered around nature, walking practices, and quiet observation.",        
-description2:"Beautiful landscape, friendly inviting people and a great place to experience a diverse culture.",
-description2:"My work uses natural environments as a space for reflection and mental reset. I support participantin reconnecting with simplicity, presence, and physical awareness through structured outdoor experiences.",          
-image: "/retreats6.9.webp",
+"Nestled in a secluded valley with an abundance of quartz crystal naturally embedded in the Earth, Moinhos Velhos is in equal parts beautiful, energising and regenerative! Here we wake up to the creative life force of nature and the songs of the birds in the morning and retire with the silence of the stars at night.",          
+image: "/retreats5.9.webp",
     },
 
     notIncluded: [

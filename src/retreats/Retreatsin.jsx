@@ -313,6 +313,7 @@ function Retreatsin() {
              {retreat?.diets[4]}
           </span>
         </div> */}
+        
 
                   </div>
                 </div>
@@ -499,7 +500,8 @@ function Retreatsin() {
                     led workshops designed to inspire and refresh your spirit.
                   </p>
 
-                  <button className="bg-[#0d3a44] hover:bg-[#124954] transition rounded-4xl px-7 py-4 flex items-center gap-8 font-semibold">
+                  <button onClick={() => navigate("/retreats")}
+                  className="bg-[#0d3a44] hover:bg-[#124954] transition rounded-4xl px-7 py-4 flex items-center gap-8 font-semibold">
                     See all
 
                     <span className="text-lg">
@@ -577,7 +579,7 @@ function Retreatsin() {
 
         </div>
       </div>
-      <div className="grid grid-cols-2 border-t border-gray-700 ">
+      {/* <div className="grid grid-cols-2 border-t border-gray-700 ">
         <div className="border-r border-gray-700 p-12">
           <div className="flex gap-10 ">
             <div className="flex flex-col justify-between ">
@@ -702,7 +704,7 @@ function Retreatsin() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <img className="opacity-100 w-full h-auto" src="/coaches botom.webp" alt="image" />
       <footer className="border-t border-gray-700">
         <div className="grid grid-cols-3 min-h-[258px]">
