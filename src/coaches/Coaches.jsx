@@ -1,7 +1,8 @@
 import React from 'react'
 import Coaches_child from './Coaches_child'
-
+import { useNavigate } from "react-router-dom";
 const Coaches = () => {
+const navigate = useNavigate();
 
   const coachesData = [
     {
@@ -308,118 +309,91 @@ const Coaches = () => {
 
 
 
-          <footer className="border-t border-gray-700 w-full">
+          <footer className="border-t border-gray-700">
 
-            <div className="grid grid-cols-1 md:grid-cols-3 min-h-0 md:min-h-[258px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 min-h-[258px]">
 
-              <div className="p-6 sm:p-8 md:p-9">
+            {/* Logo */}
 
-                <h2 className="text-xl sm:text-2xl font-bold flex items-center gap-2">
+            <div className="p-6 sm:p-9">
 
-                  <button
-                    onClick={() => navigate("/home")}                  >
-                    <span className="text-xl">
-                      ✱
-                    </span>
-                    Vita Travels
-                  </button>
+              <h2 className="text-2xl font-bold flex items-center gap-2">
 
-                </h2>
+                <button
+                  type="button"
+                  onClick={() => navigate("/")}
+                >
 
-              </div>
+                  <span className="text-xl">
+                    ✱
+                  </span>
 
+                  Vita Travels
 
-              <div className="p-6 sm:p-8 md:p-9">
+                </button>
 
-                <div className="text-3xl sm:text-4xl font-bold leading-[1.25]">
+              </h2>
 
-                  <button
-                    className="block hover:text-amber-300"
-                    onClick={() => navigate("/coaches")}
-                  >
-                    <span className="text-gray-500">
-                      +
-                    </span>
-                    {" "}Coaches
-                  </button>
+            </div>
 
 
-                  <button
-                    className="block hover:text-amber-300"
-                  
-                    onClick={() => navigate("/contact")}
-                  >
-                    <span className="text-gray-500">
-                      +
-                    </span>
-                    {" "}Contacts
-                  </button>
+            {/* Links */}
 
-                </div>
+            <div className="p-6 sm:p-9">
 
-              </div>
+              <div className="text-3xl sm:text-4xl font-bold leading-[1.25]">
+
+                <button
+                  type="button"
+                  className="flex hover:text-amber-300"
+                  onClick={() => navigate("/coaches")}
+                >
+
+                  <span className="text-gray-500">
+                    +
+                  </span>
+
+                  Coaches
+
+                </button>
 
 
-              <div className="p-6 sm:p-8 md:p-9">
+                <button
+                  type="button"
+                  className="flex hover:text-amber-300"
+                  onClick={() => navigate("/contact")}
+                >
 
-                <p className="text-base sm:text-lg font-semibold break-words">
-                  +1 012 345 678
-                </p>
+                  <span className="text-gray-500">
+                    +
+                  </span>
 
-                <p className="text-base sm:text-lg font-semibold mt-3 break-words">
-                  vita-travels@gmail.com
-                </p>
+                  Contact
+
+                </button>
 
               </div>
 
             </div>
 
 
+            {/* Contact details */}
 
-            <div className="border-t border-gray-700">
+            <div className="p-6 sm:p-9">
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 min-h-0 lg:min-h-[78px]">
+              <p className="text-lg font-semibold">
+                +1 012 345 678
+              </p>
 
-                <div className="p-5 sm:p-7 border-b sm:border-b-0 sm:border-r border-gray-700">
-
-                  <p className="text-xs sm:text-sm font-semibold text-gray-400">
-                    ©All Rights Reserved. Vita Travel, 2026
-                  </p>
-
-                </div>
-
-
-                <div className="p-5 sm:p-7 border-b sm:border-b-0 lg:border-r border-gray-700">
-
-                  <p className="text-xs sm:text-sm font-semibold text-gray-400">
-                    Made by ✱ Phenomenon Studio
-                  </p>
-
-                </div>
-
-
-                <div className="p-5 sm:p-7 lg:flex lg:justify-end border-b sm:border-b-0 lg:border-r border-gray-700">
-
-                  <p className="text-xs sm:text-sm font-semibold text-gray-400">
-                    Terms and Conditions
-                  </p>
-
-                </div>
-
-
-                <div className="p-5 sm:p-7">
-
-                  <p className="text-sm font-semibold text-gray-400">
-                  </p>
-
-                </div>
-
-              </div>
+              <p className="text-lg font-semibold mt-3">
+                vita-travels@gmail.com
+              </p>
 
             </div>
 
-          </footer>
+          </div>
 
+        </footer>
         </div>
 
       </section>

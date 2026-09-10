@@ -1,6 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Contacts = () => {
+
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Successfully submitted");
+  };
+
   return (
     <>
       <section className="bg-[#061c20] text-white min-h-screen">
@@ -12,6 +21,7 @@ const Contacts = () => {
             <img
               className="border-r border-gray-400 border-r-gray-700 h-full w-full p-5 object-cover"
               src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/6989df5258a6f0a8174626f3_illustration-contact.webp"
+              alt="Contact"
             />
 
           </div>
@@ -42,14 +52,10 @@ const Contacts = () => {
             </p>
 
 
-            <form className="mt-10 sm:mt-14">
-              <form
-  onSubmit={(e) => {
-    e.preventDefault();
-    alert("Successfully submitted");
-  }}
-  className="mt-10 sm:mt-14"
-></form>
+            <form
+              onSubmit={handleSubmit}
+              className="mt-10 sm:mt-14"
+            >
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
@@ -62,6 +68,7 @@ const Contacts = () => {
                   <input
                     type="text"
                     placeholder="Name"
+                    required
                     className="w-full bg-transparent border-b border-gray-700 pb-4 text-lg sm:text-xl font-semibold text-white placeholder-gray-500 outline-none focus:border-gray-400"
                   />
 
@@ -77,6 +84,7 @@ const Contacts = () => {
                   <input
                     type="email"
                     placeholder="Enter your email"
+                    required
                     className="w-full bg-transparent border-b border-gray-700 pb-4 text-lg sm:text-xl font-semibold text-white placeholder-gray-500 outline-none focus:border-gray-400"
                   />
 
@@ -94,6 +102,7 @@ const Contacts = () => {
                 <textarea
                   rows="5"
                   placeholder="Message"
+                  required
                   className="w-full bg-transparent border-b border-gray-700 pb-4 text-lg sm:text-xl font-semibold text-white placeholder-gray-500 outline-none resize-none focus:border-gray-400"
                 ></textarea>
 
@@ -104,10 +113,8 @@ const Contacts = () => {
 
                 <button
                   type="submit"
-                  onClick={() => alert("Succesfully submited")}
                   className="bg-white ml-0 sm:ml-10 hover:bg-amber-300 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold flex items-center gap-5 transition"
                 >
-                  
 
                   <span>
                     Submit
@@ -127,22 +134,27 @@ const Contacts = () => {
 
         </div>
 
-
         <footer className="border-t border-gray-700">
 
           <div className="grid grid-cols-1 md:grid-cols-3 min-h-[258px]">
+
+            {/* Logo */}
 
             <div className="p-6 sm:p-9">
 
               <h2 className="text-2xl font-bold flex items-center gap-2">
 
                 <button
-                 onClick={() => navigate("/home")}
+                  type="button"
+                  onClick={() => navigate("/")}
                 >
+
                   <span className="text-xl">
                     ✱
                   </span>
+
                   Vita Travels
+
                 </button>
 
               </h2>
@@ -150,35 +162,47 @@ const Contacts = () => {
             </div>
 
 
+            {/* Links */}
+
             <div className="p-6 sm:p-9">
 
               <div className="text-3xl sm:text-4xl font-bold leading-[1.25]">
 
                 <button
+                  type="button"
                   className="flex hover:text-amber-300"
                   onClick={() => navigate("/coaches")}
                 >
-                  <span className="text-gray-500 hover:text-amber-50">
+
+                  <span className="text-gray-500">
                     +
                   </span>
+
                   Coaches
+
                 </button>
 
 
                 <button
+                  type="button"
                   className="flex hover:text-amber-300"
                   onClick={() => navigate("/contact")}
                 >
-                  <span className="text-gray-500 hover:text-amber-50">
+
+                  <span className="text-gray-500">
                     +
                   </span>
+
                   Contact
+
                 </button>
 
               </div>
 
             </div>
 
+
+            {/* Contact details */}
 
             <div className="p-6 sm:p-9">
 
@@ -194,50 +218,8 @@ const Contacts = () => {
 
           </div>
 
-
-          <div className="border-t border-gray-700">
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 min-h-[78px]">
-
-              <div className="p-5 sm:p-7 border-r border-gray-700">
-
-                <p className="text-sm font-semibold text-gray-400">
-                  ©All Rights Reserved. Vita Travel, 2026
-                </p>
-
-              </div>
-
-
-              <div className="p-5 sm:p-7">
-
-                <p className="text-sm font-semibold text-gray-400">
-                  Made by ✱ Phenomenon Studio
-                </p>
-
-              </div>
-
-
-              <div className="p-5 sm:p-7 flex justify-start lg:justify-end">
-
-                <p className="text-sm font-semibold text-gray-400">
-                  Terms and Conditions
-                </p>
-
-              </div>
-
-
-              <div className="p-5 sm:p-7">
-
-                <p className="text-sm font-semibold text-gray-400">
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
         </footer>
+
 
       </section>
     </>
