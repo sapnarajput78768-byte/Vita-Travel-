@@ -7,7 +7,7 @@ const Coaches = () => {
     {
       id: "1",
       title: "Lauren Thompson",
-      title_1: "Yoga Couch",
+      title_1: "Yoga Coach",
       image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6cc589808c226f0cd7_ea8e8b2e1274331d29db4f187ea3aebb_1.webp",
       discription: `I work with yoga as a practical tool for improving mobility, balance,<br and body awareness. My sessions focus on breath, alignment, and calm strength, without pressure or competition. I support people who want to build a steady practice that fits real life and long-term wellbeing.\nMy approach is grounded, structured, and accessible for different experience levels.`,
       country: "14",
@@ -97,7 +97,7 @@ const Coaches = () => {
     {
       id: "11",
       title: "Laura Sánchez",
-      title_1: "Yoga Couch",
+      title_1: "Yoga Coach",
       image: "https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/69897f6c292a68644a3e07b6_11.webp",
       discription: `I teach yoga as a consistent daily practice that supports strength, flexibility, and mental clarity. My sessions are structured, calm, and focused on breath, alignment, and body awareness. I work with people who want to integrate yoga into their routine in a realistic and sustainable way, without pressure or performance-based expectations.`,
       country: "26",
@@ -112,190 +112,317 @@ const Coaches = () => {
       country: "19",
       attended: "18"
     }
-
   ]
+
+
   const valuesData = [
-  {
-    id: "01",
-    title: "Honesty",
-    description:
-      "Having the courage to be transparent in our feelings and what we do",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtmMfW1ZZZlpQE8-D99VxNbm7WBXOcowqN2By_UdoFw&s=10",
-  },
-  {
-    id: "02",
-    title: "Self-responsibility",
-    description:
-      "Taking responsibility for our situation in life and not engaging in the blame game",
-     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2i0BLIsThGShCkmhzPj_c5ntV0eg0kCxqdaN2YLMASQ&s=10",
-  },
-  {
-    id: "03",
-    title: "Kindness",
-    description:
-      "Show compassion, empathy, and patience to enhance comfort and joy in life.",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXjv7bYYQPF2LVSst5hlb54LjDw13kj-z6kQyO8Gq5A&s=10",
-  },
-  {
-    id: "04",
-    title: "Dedication",
-    description:
-      "Taking on the challenge of the journey and focus upon the vision we want to manifest",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWSavc2NoLiRSBYm4ywwmsK0yhUWHyjaHuSh9zYyOh8A&s=10",
-  },
-  {
-    id: "05",
-    title: "Service",
-    description:
-      "Placing our gifts and talents at the services of increasing the loving consciousness of the world",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj3FRhxVXFM3Nz5flBii3q6jihPYDnXJBwM3LaPto_fw&s=10",
-  },
-  {
-    id: "06",
-    title: "Beauty",
-    description:
-      "Expressing openly the core essence that inhabits each one of us",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOfsYuOrjF9rfgmYfauQjUk8DK95nD-JLMO3tq01Hng&s=10",
-  },
-  {
-    id: "07",
-    title: "Human Wellbeing",
-    description:
-      "In the end, we are all in the business of human wellbeing",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKUgeVNFNTVhRN_sKo4YqE5VxbYu6elmK7Foh_QQtSQQ&s=10",
-  },
-  {
-    id: "08",
-    title: "Travel & track progress",
-    description:
-      "Use VITA Journal to reflect and rebook.",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiqpdUdjakpoZQsc-yTpOERYqmZwb_085fGi-kQDpSKg&s=10",
-  },
-];
+    {
+      id: "01",
+      title: "Honesty",
+      description:
+        "Having the courage to be transparent in our feelings and what we do",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtmMfW1ZZZlpQE8-D99VxNbm7WBXOcowqN2By_UdoFw&s=10",
+    },
+    {
+      id: "02",
+      title: "Self-responsibility",
+      description:
+        "Taking responsibility for our situation in life and not engaging in the blame game",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2i0BLIsThGShCkmhzPj_c5ntV0eg0kCxqdaN2YLMASQ&s=10",
+    },
+    {
+      id: "03",
+      title: "Kindness",
+      description:
+        "Show compassion, empathy, and patience to enhance comfort and joy in life.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXjv7bYYQPF2LVSst5hlb54LjDw13kj-z6kQyO8Gq5A&s=10",
+    },
+    {
+      id: "04",
+      title: "Dedication",
+      description:
+        "Taking on the challenge of the journey and focus upon the vision we want to manifest",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWSavc2NoLiRSBYm4ywwmsK0yhUWHyjaHuSh9zYyOh8A&s=10",
+    },
+    {
+      id: "05",
+      title: "Service",
+      description:
+        "Placing our gifts and talents at the services of increasing the loving consciousness of the world",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj3FRhxVXFM3Nz5flBii3q6jihPYDnXJBwM3LaPto_fw&s=10",
+    },
+    {
+      id: "06",
+      title: "Beauty",
+      description:
+        "Expressing openly the core essence that inhabits each one of us",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOfsYuOrjF9rfgmYfauQjUk8DK95nD-JLMO3tq01Hng&s=10",
+    },
+    {
+      id: "07",
+      title: "Human Wellbeing",
+      description:
+        "In the end, we are all in the business of human wellbeing",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKUgeVNFNTVhRN_sKo4YqE5VxbYu6elmK7Foh_QQtSQQ&s=10",
+    },
+    {
+      id: "08",
+      title: "Travel & track progress",
+      description:
+        "Use VITA Journal to reflect and rebook.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiqpdUdjakpoZQsc-yTpOERYqmZwb_085fGi-kQDpSKg&s=10",
+    },
+  ];
+
 
   return (
 
     <>
-      <section>
-        <div className="container">
-          <div className="bg-[#061c20] text-white min-h-screen">
-            <div className="pt-25 pb-10 text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-5">
-                Our Coaches
-              </h1>
-              <p className="max-w-3xl mx-auto   px-5 text-gray-300 leading-7">
-                Our fully remote lives, travels, and works all over the world.<br />
-                From India to Indonesia, the Philippines to Portugal, Ukraine to<br />
-                the US; and everywhere else in between.</p>
+
+      <section className="w-full bg-[#061c20] text-white">
+
+        <div className="w-full bg-[#061c20]">
+
+          {/* ================= OUR COACHES ================= */}
+
+          <div className="pt-28 sm:pt-25 md:pt-28 lg:pt-25 pb-10 px-5 sm:px-8 md:px-10 lg:px-0 text-center">
+
+            <h1 className="text-4xl sm:text-5xl font-bold mb-5">
+              Our Coaches
+            </h1>
+
+            <p className="max-w-3xl mx-auto px-2 sm:px-5 text-sm sm:text-base text-gray-300 leading-6 sm:leading-7">
+              Our coaches live, travel, and work all over the world.
+              <br className="hidden sm:block" />
+              From India to Indonesia, the Philippines to Portugal, Ukraine to
+              <br className="hidden sm:block" />
+              the US; and everywhere else in between.
+            </p>
+
+          </div>
+
+
+          {/* ================= COACHES CARDS ================= */}
+
+          <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+            {coachesData.map((item) => (
+
+              <Coaches_child
+                key={item.id}
+                coachesData={item}
+              />
+
+            ))}
+
+          </div>
+
+
+          {/* ================= OUR VALUES ================= */}
+
+          <section className="w-full bg-[#061c20] text-white px-5 sm:px-8 md:px-10 lg:px-12 xl:px-16 py-16 sm:py-20 lg:py-24">
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-14 sm:mb-20">
+
+              <div>
+
+                <h2 className="text-3xl sm:text-4xl font-semibold">
+                  Our Values
+                </h2>
+
+              </div>
+
+
+              <div className="max-w-xl">
+
+                <p className="text-sm sm:text-base text-gray-400 leading-6 sm:leading-7">
+                  As a company, we've been inspired to be a link in the chain
+                  of happiness in the world. In order to manifest that
+                  inspiration, we strive to embody these values in everything
+                  we do.
+                </p>
+
+              </div>
+
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              {coachesData.map((item) => (
-                <Coaches_child key={item.id} coachesData={item} />
+
+            {/* VALUES CARDS */}
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-gray-700">
+
+              {valuesData.map((value) => (
+
+                <div
+                  key={value.id}
+                  className="p-5 sm:p-6 md:p-8 border-b sm:border-r lg:border-r border-gray-700 last:border-r-0 transition-all duration-500 hover:bg-[#0b272b] group"
+                >
+
+                  <div className="flex items-start justify-between mb-12 sm:mb-16 lg:mb-20">
+
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-5xl text-white transition-transform duration-500 group-hover:scale-110">
+
+                      <img
+                        src={value.image}
+                        alt={value.title}
+                        className="w-full h-full pt-2 sm:pt-5 object-contain"
+                      />
+
+                    </div>
+
+
+                    <span className="text-gray-500 text-sm font-semibold">
+                      {value.id}
+                    </span>
+
+                  </div>
+
+
+                  <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-5">
+                    {value.title}
+                  </h3>
+
+
+                  <p className="text-gray-400 text-sm sm:text-base leading-6">
+                    {value.description}
+                  </p>
+
+                </div>
+
               ))}
 
-
             </div>
 
+          </section>
 
-<section className="bg-[#061c20] text-white px-6 md:px-10 lg:px-0 py-20">
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-20">
-    <div>
-      <h2 className="text-4xl   font-semibold">
-        Our values
-      </h2>
-    </div>
-    <div className="max-w-xl">
-      <p className="text-gray-400  ">
-        As a company we've been inspired to be a link in the chain of
-        happiness in the world. In order to manifest that inspiration,
-        we strive to embody these
-      </p>
-    </div>
-  </div>
 
-  <div className="grid grid-cols-4">
-    {valuesData.map((value) => (
+          {/* ================= BOTTOM IMAGE ================= */}
 
-      <div
-        key={value.id}
-        className=" p-8 transition-all duration-500 hover:bg-[#0b272b] group">
+          <div className="w-full overflow-hidden">
 
-        <div className="flex items-start justify-between mb-20">
-          <div className="text-5xl text-white transition-transform duration-500 group-hover:scale-110">
-            <img src={value.image} alt={value.title} className="w-full h-full pt-5 object-contain" />
-          </div>
-          <span className="text-gray-500 text-sm font-semibold">
-            {value.id}
-          </span>
-        </div>
-
-        <h3 className="text-xl font-semibold mb-5">
-          {value.title}
-        </h3>
-        <p className="text-gray-400 text-base leading-6">
-          {value.description}
-        </p>
-
-      </div>
-
-    ))}
-
-  </div>
-
-</section>
-<div>
-  <img className="opacity-100 w-full h-auto" src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/697b6310adee6f369b84c520_illustration.webp" alt="image" />
-</div>
-<footer className="border-t border-gray-700">
-          <div className="grid grid-cols-3 min-h-[258px]">
-            <div className="p-9">
-              <h2 className="text-2xl font-bold flex items-center gap-2">
-                <button  onClick={() => window.location.href = "http://localhost:5173"}><span className="text-xl">✱  </span>Vita Travels</button>
-              </h2>
-
-            </div>
-            <div className="p-9">
-              <div className="text-4xl font-bold leading-[1.25]">
-                <button className='hover:text-amber-300'  onClick={() => window.location.href = "http://localhost:5173/coaches"}><span className="text-gray-500"> + </span> Coaches </button>
-                <button className='hover:text-amber-300'  onClick={() => window.location.href = "http://localhost:5173/contact"}><span className="text-gray-500"> +</span> Contacts </button>
-              </div>
-            </div>
-
-            <div className="p-9">
-              <p className="text-lg font-semibold">+1 012 345 678</p>      
-              <p className="text-lg font-semibold mt-3"> vita-travels@gmail.com</p>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700">
-            <div className="grid grid-cols-4 min-h-[78px]">
-              <div className="p-7 border-r border-gray-700">
-                <p className="text-sm font-semibold text-gray-400">
-                  ©All Rights Reserved. Vita Travel, 2026</p>
-              </div>
-
-              <div className="p-7">
-
-                <p className="text-sm font-semibold text-gray-400">  Made by ✱ Phenomenon Studio</p>
-                
-              </div>
-
-              <div className="p-7 flex justify-end">
-                <p className="text-sm font-semibold text-gray-400"> Terms and Conditions</p>
-              </div>
-
-              <div className="p-7">
-                <p className="text-sm font-semibold text-gray-400"></p>
-              </div>
-
-            </div>
+            <img
+              className="opacity-100 w-full h-auto object-cover block"
+              src="https://cdn.prod.website-files.com/696eeb61714a6c90a5f18c9e/697b6310adee6f369b84c520_illustration.webp"
+              alt="image"
+            />
 
           </div>
 
-        </footer>
 
-          </div>
+          {/* ================= FOOTER ================= */}
+
+          <footer className="border-t border-gray-700 w-full">
+
+            <div className="grid grid-cols-1 md:grid-cols-3 min-h-0 md:min-h-[258px]">
+
+              <div className="p-6 sm:p-8 md:p-9">
+
+                <h2 className="text-xl sm:text-2xl font-bold flex items-center gap-2">
+
+                  <button
+                    onClick={() => window.location.href = "http://localhost:5173"}
+                  >
+                    <span className="text-xl">
+                      ✱
+                    </span>
+                    Vita Travels
+                  </button>
+
+                </h2>
+
+              </div>
+
+
+              <div className="p-6 sm:p-8 md:p-9">
+
+                <div className="text-3xl sm:text-4xl font-bold leading-[1.25]">
+
+                  <button
+                    className="block hover:text-amber-300"
+                    onClick={() => window.location.href = "http://localhost:5173/coaches"}
+                  >
+                    <span className="text-gray-500">
+                      +
+                    </span>
+                    {" "}Coaches
+                  </button>
+
+
+                  <button
+                    className="block hover:text-amber-300"
+                    onClick={() => window.location.href = "http://localhost:5173/contact"}
+                  >
+                    <span className="text-gray-500">
+                      +
+                    </span>
+                    {" "}Contacts
+                  </button>
+
+                </div>
+
+              </div>
+
+
+              <div className="p-6 sm:p-8 md:p-9">
+
+                <p className="text-base sm:text-lg font-semibold break-words">
+                  +1 012 345 678
+                </p>
+
+                <p className="text-base sm:text-lg font-semibold mt-3 break-words">
+                  vita-travels@gmail.com
+                </p>
+
+              </div>
+
+            </div>
+
+
+            {/* FOOTER BOTTOM */}
+
+            <div className="border-t border-gray-700">
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 min-h-0 lg:min-h-[78px]">
+
+                <div className="p-5 sm:p-7 border-b sm:border-b-0 sm:border-r border-gray-700">
+
+                  <p className="text-xs sm:text-sm font-semibold text-gray-400">
+                    ©All Rights Reserved. Vita Travel, 2026
+                  </p>
+
+                </div>
+
+
+                <div className="p-5 sm:p-7 border-b sm:border-b-0 lg:border-r border-gray-700">
+
+                  <p className="text-xs sm:text-sm font-semibold text-gray-400">
+                    Made by ✱ Phenomenon Studio
+                  </p>
+
+                </div>
+
+
+                <div className="p-5 sm:p-7 lg:flex lg:justify-end border-b sm:border-b-0 lg:border-r border-gray-700">
+
+                  <p className="text-xs sm:text-sm font-semibold text-gray-400">
+                    Terms and Conditions
+                  </p>
+
+                </div>
+
+
+                <div className="p-5 sm:p-7">
+
+                  <p className="text-sm font-semibold text-gray-400">
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </footer>
 
         </div>
 
