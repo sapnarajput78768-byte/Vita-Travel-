@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 const Contacts = () => {
 
+  
   const navigate = useNavigate();
-
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Successfully submitted");

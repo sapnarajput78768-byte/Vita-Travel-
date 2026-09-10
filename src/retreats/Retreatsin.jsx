@@ -673,9 +673,7 @@ function Retreatsin() {
 
               <button
                 className="block hover:text-amber-300"
-                onClick={() =>
-                  window.location.href = "http://localhost:5173/coaches"
-                }
+              onClick={() => navigate("/coaches")}
               >
                 <span className="text-gray-500">
                   +
@@ -687,9 +685,7 @@ function Retreatsin() {
 
               <button
                 className="block hover:text-amber-300 mt-2"
-                onClick={() =>
-                  window.location.href = "http://localhost:5173/contact"
-                }
+               onClick={() => navigate("/contact")}
               >
                 <span className="text-gray-500">
                   +
