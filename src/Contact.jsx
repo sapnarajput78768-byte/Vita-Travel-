@@ -43,6 +43,13 @@ const Contacts = () => {
 
 
             <form className="mt-10 sm:mt-14">
+              <form
+  onSubmit={(e) => {
+    e.preventDefault();
+    alert("Successfully submitted");
+  }}
+  className="mt-10 sm:mt-14"
+></form>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
@@ -97,8 +104,10 @@ const Contacts = () => {
 
                 <button
                   type="submit"
+                  onClick={() => alert("Succesfully submited")}
                   className="bg-white ml-0 sm:ml-10 hover:bg-amber-300 text-black px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold flex items-center gap-5 transition"
                 >
+                  
 
                   <span>
                     Submit
@@ -128,7 +137,7 @@ const Contacts = () => {
               <h2 className="text-2xl font-bold flex items-center gap-2">
 
                 <button
-                  onClick={() => window.location.href = "http://localhost:5173"}
+                 onClick={() => navigate("/home")}
                 >
                   <span className="text-xl">
                     ✱
@@ -147,7 +156,7 @@ const Contacts = () => {
 
                 <button
                   className="flex hover:text-amber-300"
-                  onClick={() => window.location.href = "http://localhost:5173/coaches"}
+                  onClick={() => navigate("/coaches")}
                 >
                   <span className="text-gray-500 hover:text-amber-50">
                     +
@@ -158,7 +167,7 @@ const Contacts = () => {
 
                 <button
                   className="flex hover:text-amber-300"
-                  onClick={() => window.location.href = "http://localhost:5173/contact"}
+                  onClick={() => navigate("/contact")}
                 >
                   <span className="text-gray-500 hover:text-amber-50">
                     +

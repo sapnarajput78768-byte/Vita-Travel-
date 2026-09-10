@@ -61,7 +61,7 @@ const ExploreCart = ({ cartData }) => {
 
 
           <button
-            onClick={() => window.location.href = "http://localhost:5173/retreats"}
+            onClick={() => navigate("/retreats")}
             className="h-10 min-h-10 px-5 sm:px-6 rounded-2xl bg-gray-600 hover:bg-amber-300 text-sm sm:text-base font-semibold text-black hover:scale-105 transition flex items-center justify-center"
           >
             Explore Retreats <h4 className='ml-1'>✦</h4>

@@ -31,7 +31,7 @@ const Home = () => {
               </p>
 
               <button
-                onClick={() => window.location.href = "http://localhost:5173/retreats"}
+                onClick={() => navigate("/retreats")}
                 className="mt-10 mx-auto gap-1 rounded-full w-full max-w-xs hover:bg-amber-300 bg-white px-6 sm:px-8 py-4 sm:py-5 text-base sm:text-lg font-semibold text-black hover:scale-105 transition flex items-center justify-center"
               >
                 Explore Retreats <span>✦</span>
@@ -49,7 +49,7 @@ const Home = () => {
           <div className='text-white pt-12 sm:pt-16 md:pt-20 px-5 sm:px-10 md:px-20 flex flex-col lg:flex-row gap-8 lg:gap-20'>
 
             <button
-              onClick={() => window.location.href = "http://localhost:5173/retreats"}
+              onClick={() => navigate("/retreats")}
             >
               <h2 className="text-lg sm:text-xl">
                 ✱ <span>Retreats</span>

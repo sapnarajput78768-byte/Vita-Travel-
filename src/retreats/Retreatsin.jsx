@@ -21,7 +21,6 @@ function Retreatsin() {
 
       <div className="w-full px-4 sm:px-6 md:px-8 lg:px-10">
 
-        {/* Breadcrumb */}
         <div className="pt-28 sm:pt-30 flex flex-wrap items-center gap-3 sm:gap-5">
           <h3 className="text-gray-300 text-sm sm:text-base">
             Home
@@ -34,16 +33,13 @@ function Retreatsin() {
           </h3>
         </div>
 
-        {/* Title */}
         <h1 className="text-2xl sm:text-3xl md:text-4xl pl-0 sm:pl-3 pt-5 font-bold mb-6">
           {retreat?.title}
         </h1>
 
 
-        {/* ================= GALLERY ================= */}
         <div className="flex flex-col lg:flex-row justify-between items-stretch gap-4 sm:gap-5">
 
-          {/* Main Image */}
           <div className="w-full lg:w-[50%]">
             <img
               src={retreat?.images[0]}
@@ -52,7 +48,6 @@ function Retreatsin() {
             />
           </div>
 
-          {/* Right Images */}
           <div className="w-full lg:w-[48%]">
 
             <img
@@ -79,10 +74,8 @@ function Retreatsin() {
         </div>
 
 
-        {/* ================= MAIN CONTENT + BOOKING ================= */}
         <div className="flex flex-col lg:flex-row items-start mt-10 lg:mt-16">
 
-          {/* ================= LEFT CONTENT ================= */}
           <div className="w-full lg:w-2/3 lg:pr-10">
 
             {/* ABOUT */}
@@ -100,7 +93,6 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= INCLUDED ================= */}
             <div className="pt-16 sm:pt-20 lg:pt-24">
 
               <h2 className="text-2xl sm:text-3xl font-bold mb-8 pl-0 sm:pl-3">
@@ -109,7 +101,6 @@ function Retreatsin() {
 
               <div className="flex flex-col md:flex-row">
 
-                {/* Left */}
                 <div className="w-full md:w-1/2 pl-0 sm:pl-3 pr-0 sm:pr-10 border-t border-gray-700">
 
                   {retreat?.included?.map((item, index) => (
@@ -123,7 +114,6 @@ function Retreatsin() {
 
                 </div>
 
-                {/* Right */}
                 <div className="w-full md:w-1/2 pl-0 md:pl-10 border-t md:border-l border-gray-700">
 
                   {retreat?.includedr?.map((item, index) => (
@@ -141,7 +131,6 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= SPECIAL ================= */}
             <div className="pt-16 sm:pt-20 lg:pt-24 pl-0 sm:pl-3">
 
               <h1 className="text-2xl sm:text-3xl font-bold mb-6">
@@ -155,7 +144,6 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= FULL PROGRAM ================= */}
             <div
               id="full-program"
               className="pt-16 sm:pt-20 lg:pt-24 pl-0 sm:pl-3"
@@ -165,7 +153,6 @@ function Retreatsin() {
                 Full Program
               </h1>
 
-              {/* Check in / Check out */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 sm:gap-8 mb-8 text-gray-400">
 
                 <div className="flex items-center gap-3">
@@ -210,7 +197,6 @@ function Retreatsin() {
               </h2>
 
 
-              {/* Schedule */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-gray-700">
 
                 {retreat?.schedule?.map((item, index) => (
@@ -245,7 +231,6 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= FOOD ================= */}
             <div
               id="food"
               className="pt-16 sm:pt-20 lg:pt-24 pl-0 sm:pl-3"
@@ -260,10 +245,8 @@ function Retreatsin() {
               </p>
 
 
-              {/* Meals + Diets */}
               <div className="grid grid-cols-1 md:grid-cols-2 border-t border-gray-700">
 
-                {/* Meals */}
                 <div className="pt-8 sm:pt-10 pr-0 md:pr-10 pb-8">
 
                   <h2 className="text-xl sm:text-2xl font-bold mb-8">
@@ -291,7 +274,6 @@ function Retreatsin() {
                 </div>
 
 
-                {/* Diets */}
                 <div className="pt-8 sm:pt-10 pl-0 md:pl-10 pb-8 border-t md:border-t-0 md:border-l border-gray-700">
 
                   <h2 className="text-xl sm:text-2xl font-bold mb-8">
@@ -321,7 +303,6 @@ function Retreatsin() {
               </div>
 
 
-              {/* Food Images */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-7 mt-12 sm:mt-20">
 
                 {retreat?.foodImages?.map((image, index) => (
@@ -338,7 +319,6 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= TEAM ================= */}
             <div
               id="team"
               className="pt-16 sm:pt-20 lg:pt-24 pl-0 sm:pl-3"
@@ -350,7 +330,7 @@ function Retreatsin() {
 
               <div className="border-t border-gray-700 grid grid-cols-1 md:grid-cols-2">
 
-                {/* Team Text */}
+             
                 <div className="min-h-0 md:min-h-[615px] pr-0 md:pr-12 pt-8 sm:pt-10 flex flex-col justify-between">
 
                   <div>
@@ -383,7 +363,6 @@ function Retreatsin() {
                 </div>
 
 
-                {/* Team Image */}
                 <div className="border-t md:border-t-0 md:border-l border-gray-700 pl-0 md:pl-9 pt-8 md:pt-9 pr-0 md:pr-5 pb-8 md:pb-9 flex justify-center">
 
                   <img
@@ -399,7 +378,7 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= LOCATION ================= */}
+       
             <div
               id="location"
               className="pt-16 sm:pt-20 lg:pt-24 pl-0 sm:pl-3"
@@ -451,7 +430,6 @@ function Retreatsin() {
             </div>
 
 
-            {/* ================= NOT INCLUDED ================= */}
             <div className="pt-16 sm:pt-20 lg:pt-24 pl-0 sm:pl-3">
 
               <h1 className="text-2xl sm:text-3xl font-bold mb-8">
@@ -469,7 +447,7 @@ function Retreatsin() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 border-t border-gray-700">
 
-                {/* Left */}
+                
                 <div className="py-8 sm:py-10 pr-0 md:pr-10">
 
                   {retreat?.notIncluded?.slice(0, 3).map((item, index) => (
@@ -493,8 +471,6 @@ function Retreatsin() {
 
                 </div>
 
-
-                {/* Right */}
                 <div className="py-8 sm:py-10 pl-0 md:pl-10 border-t md:border-t-0 md:border-l border-gray-700">
 
                   {retreat?.notIncluded?.slice(3, 6).map((item, index) => (
@@ -522,8 +498,6 @@ function Retreatsin() {
 
             </div>
 
-
-            {/* ================= YOU MAY ALSO LIKE ================= */}
             <div className="mt-20 sm:mt-28 lg:mt-32">
 
               <div className="px-0 sm:px-5 pb-12 sm:pb-16 flex flex-col lg:flex-row justify-between items-start gap-8">

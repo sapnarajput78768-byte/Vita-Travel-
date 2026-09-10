@@ -183,7 +183,6 @@ const Coaches = () => {
 
         <div className="w-full bg-[#061c20]">
 
-          {/* ================= OUR COACHES ================= */}
 
           <div className="pt-28 sm:pt-25 md:pt-28 lg:pt-25 pb-10 px-5 sm:px-8 md:px-10 lg:px-0 text-center">
 
@@ -202,7 +201,6 @@ const Coaches = () => {
           </div>
 
 
-          {/* ================= COACHES CARDS ================= */}
 
           <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
@@ -218,7 +216,7 @@ const Coaches = () => {
           </div>
 
 
-          {/* ================= OUR VALUES ================= */}
+        
 
           <section className="w-full bg-[#061c20] text-white px-5 sm:px-8 md:px-10 lg:px-12 xl:px-16 py-16 sm:py-20 lg:py-24">
 
@@ -247,7 +245,7 @@ const Coaches = () => {
             </div>
 
 
-            {/* VALUES CARDS */}
+       
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-gray-700">
 
@@ -296,7 +294,7 @@ const Coaches = () => {
           </section>
 
 
-          {/* ================= BOTTOM IMAGE ================= */}
+      
 
           <div className="w-full overflow-hidden">
 
@@ -309,7 +307,6 @@ const Coaches = () => {
           </div>
 
 
-          {/* ================= FOOTER ================= */}
 
           <footer className="border-t border-gray-700 w-full">
 
@@ -320,8 +317,7 @@ const Coaches = () => {
                 <h2 className="text-xl sm:text-2xl font-bold flex items-center gap-2">
 
                   <button
-                    onClick={() => window.location.href = "http://localhost:5173"}
-                  >
+                    onClick={() => navigate("/home")}                  >
                     <span className="text-xl">
                       ✱
                     </span>
@@ -339,7 +335,7 @@ const Coaches = () => {
 
                   <button
                     className="block hover:text-amber-300"
-                    onClick={() => window.location.href = "http://localhost:5173/coaches"}
+                    onClick={() => navigate("/coaches")}
                   >
                     <span className="text-gray-500">
                       +
@@ -350,7 +346,8 @@ const Coaches = () => {
 
                   <button
                     className="block hover:text-amber-300"
-                    onClick={() => window.location.href = "http://localhost:5173/contact"}
+                  
+                    onClick={() => navigate("/contact")}
                   >
                     <span className="text-gray-500">
                       +
@@ -378,7 +375,6 @@ const Coaches = () => {
             </div>
 
 
-            {/* FOOTER BOTTOM */}
 
             <div className="border-t border-gray-700">
 
